@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../multimedia/logo_favicom.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navegador">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>    
+                <li><a href="./pagina_de_noticias.html">Página de noticias</a></li>    
+                <li><a href="./personajes_principales.html">Personajes principales</a></li> 
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <h1 class="título-principal">Contacto</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qza8ncYdVdk?si=Ptz4lJ9MOZM8BCu6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <form action="">
+        <label for="mail">Email</label>
+        <input type="email" name="mail" id="mail" placeholder="Ingrese su Email" required>
+        <label for="datos">Nombre y Apellido</label> 
+        <input type="text" name="nom_Apell" id="datos" placeholder="Ingrese su nombre y apellido" required>
+        <label for="tel">Teléfono</label>
+        <input type="tel" name="tel" id="tel" placeholder="Ingrese su teléfono">
+        <br>
+        <label for="género">Hombre</label>
+        <input type="radio" name="género]" id="hombre" value="hombre">
+        <label for="mujer">Mujer</label>
+        <input type="radio" name="mujer" id="mujer" value="mujer">
+        <label for="género">No Binario</label>
+        <input type="radio" name="nobinario" id="nobinario" value="nobinario">
+        <br>
+        <label for="términos">Acepta términos y condiciones</label>
+        <input type="checkbox" name="términos" id="términos" value="acepto" required>
+        <br>
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10">Mensaje</textarea>
+        <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer class="footer">
+        <p>Todos los derechos reservados. Vikingos 2023.</p>
+    </footer>
+</body>
+</html>
